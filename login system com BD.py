@@ -6,10 +6,7 @@ while True:
         print('-=' * 10)
         print('Welcome to my menu system, summoner!')
         print('-=' * 10)
-        print('''Choose an option:
-(' 1 ') Login in the system.
-(' 2 ') Register in the system.
-(' 0 ') To say goodbye.''')
+        print('''Choose an option:\n(' 1 ') Login in the system.\n(' 2 ') Register in the system.\n(' 0 ') To say goodbye.''')
         print('-=' * 10)
         menu_res = str(input('Put your option: ')).strip().lower()[0]
         if menu_res == '0':
@@ -20,19 +17,13 @@ while True:
         # elif menu_res == 2:# register
         #     #Function register
     else:
-        _continue = str(input('''Wish continue? 
-        (' Y ') Yes.
-        (' N ') No.
-        Opção:''')).strip().lower()[0]
+        _continue = str(input('''Wish continue?\n(' Y ') Yes.\n(' N ') No.\nOption:''')).strip().lower()[0]
         if _continue in 'yn':
             if _continue == 'y':
                 print('-=' * 10)
                 print('Welcome back buddy xD!')
                 print('-=' * 10)
-                print('''Choose an option:
-(' 1 ') Login in the system.
-(' 2 ') Register in the system.
-(' 0 ') To say goodbye.''')
+                print('''Choose an option:\n(' 1 ') Login in the system.\n(' 2 ') Register in the system.\n(' 0 ') To say goodbye.''')
                 menu_res = str(input('Put another option: ')).strip().lower()[0]
                 if menu_res == '0':
                     print('Closing SYsTeEe.....m')
